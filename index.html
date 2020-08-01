@@ -10,42 +10,45 @@
 </head>
 
 <body>
-    <header class="d-flex align-items-center justify-content-center">
-        <div>
-            <h2>Activity Finder</h2>
-            <p>Never Feel Bored Again</p>
+    <div class = "main">
+        <header class="">
+            <div>
+                <h2>Activity Finder</h2>
+                <p>Never Feel Bored Again</p>
+                <img src="joyride.svg" alt="" class = "joyride">
+            </div>
 
-        </div>
+        </header>
+        <div class="controls d-flex align-items-center justify-content-center">
+            <div class="activity-type p-3 d-flex flex-column">
+                <label for="Activity Type">Activity Type</label>
+                <select id="activity-type">
+                    <option value="education">Educational</option>
+                    <option value="recreational">Recreational</option>
+                    <option value="social">Social</option>
+                    <option value="diy">DIY</option>
+                    <option value="charity">Charity</option>
+                    <option value="cooking">Cooking</option>
+                    <option value="relaxation">Relaxation</option>
+                    <option value="music">Music</option>
+                    <option value="busywork">Busy Work</option>
+                </select>
+            </div>
 
-    </header>
-    <div class="controls d-flex align-items-center justify-content-center">
-        <div class="activity-type p-3 d-flex flex-column">
-            <label for="Activity Type">Activity Type</label>
-            <select id="activity-type">
-                <option value="education">Educational</option>
-                <option value="recreational">Recreational</option>
-                <option value="social">Social</option>
-                <option value="diy">DIY</option>
-                <option value="charity">Charity</option>
-                <option value="cooking">Cooking</option>
-                <option value="relaxation">Relaxation</option>
-                <option value="music">Music</option>
-                <option value="busywork">Busy Work</option>
-            </select>
-        </div>
-
-        <div class="people-count p-3 d-flex flex-column">
-            <label for="people-count">Number Of People</label>
-            <select name="people-count" id="people">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="4">5</option>
-            </select>
+            <div class="people-count p-3 d-flex flex-column">
+                <label for="people-count">Number Of People</label>
+                <select name="people-count" id="people">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4">5</option>
+                </select>
+            </div>
         </div>
     </div>
     <script src="app.js"></script>
+
 </body>
 
 </html>

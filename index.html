@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +14,14 @@
         <div>
             <h2>Activity Finder</h2>
             <p>Never Feel Bored Again</p>
+
         </div>
+
     </header>
-    <div class="controls">
-        <div class="activity-type">
+    <div class="controls d-flex align-items-center justify-content-center">
+        <div class="activity-type p-3 d-flex flex-column">
             <label for="Activity Type">Activity Type</label>
-            <select id="activity-type" class='d-flex'>
+            <select id="activity-type">
                 <option value="education">Educational</option>
                 <option value="recreational">Recreational</option>
                 <option value="social">Social</option>
@@ -32,7 +34,7 @@
             </select>
         </div>
 
-        <div class="people-count">
+        <div class="people-count p-3 d-flex flex-column">
             <label for="people-count">Number Of People</label>
             <select name="people-count" id="people">
                 <option value="1">1</option>

@@ -24,11 +24,11 @@ header h2 {
 }
 header p {
   font-size: 2rem;
-  color:#0A4B5B;
+  color: #0a4b5b;
 }
-label{
-    color:#FFF;
-    font-size:1.2rem;
+label {
+  color: #fff;
+  font-size: 1.2rem;
 }
 .joyride {
   height: auto;
@@ -40,19 +40,18 @@ label{
 .controls {
   text-align: center;
 }
+ .controls h4 {
+  color:#0A4B5B;
+}
 select {
   outline: none;
   padding: 0.8rem 1.5rem;
   border: 0.5px solid #fff;
   width: 10rem;
-      background-color: #0B5F73;
-
+  background-color: #0b5f73;
 }
 option {
-    color:#FFF;
-}
-option:hover{
-    color:#e44e4e
+  color: #fff;
 }
 
 /* 0B5F73 - 0A4B5B - E44E4E - CC3C3C - 9c2c2c   */

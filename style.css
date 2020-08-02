@@ -57,5 +57,8 @@ select {
 option {
   color: #fff;
 }
-
-/* 0B5F73 - 0A4B5B - E44E4E - CC3C3C - 9c2c2c   */
+#personalActivity, #groupActivity{
+    outline-style: none;
+    border:1px solid var(--tealColor);
+    background-color: var(--bgColor)
+}

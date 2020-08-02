@@ -9,6 +9,8 @@ const groupActivity = document
 
 
 // FUNCTIONS
+
+//  Personal Activity Function
 function getPersonalActivity () {
   const activityType = document.getElementById("activity-type").value;
   const url = `https://www.boredapi.com/api/activity?type=${activityType}`;
@@ -19,6 +21,7 @@ function getPersonalActivity () {
     });
 }
 
+// Group Activity Function
 function getGroupActivity () {
 const peopleCount = document.getElementById("people").value;
   const url = `https://www.boredapi.com/api/activity?participants=${peopleCount}`;

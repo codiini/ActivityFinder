@@ -17,6 +17,17 @@ function getPersonalActivity () {
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
+
+      // removes svg from page
+      let imgRemove = document.getElementById("joy-svg");
+      imgRemove.remove();
+
+      let headerDiv = document.getElementById("header-div");
+
+      // created the main card div
+      let response = document
+        .createElement("div")
+        .classList.add("card", "w-75", "p-5", "mx-auto");
       console.log(data);
     });
 }

@@ -36,6 +36,13 @@ function getPersonalActivity() {
       // Append sub card div to main card div
       response.appendChild(subResponse);
 
+      let subResponseTitle = document.createElement("p");
+      subResponseTitle.innerHTML = "You can:"
+      subResponse.appendChild(subResponseTitle);
+
+      let subResponseBody = document.createElement("p");
+      subResponseBody.innerHTML = `${data.activity}`;
+      subResponse.appendChild(subResponseBody);
       console.log(data);
     });
 }

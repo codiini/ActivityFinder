@@ -61,7 +61,6 @@ option {
   color: #fff;
 }
 #personalActivity, #groupActivity{
-    outline-style: none;
     border:1px solid var(--tealColor);
     background-color: var(--bgColor)
 }

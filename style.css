@@ -4,12 +4,14 @@
   --tealColor: #EA4C4C;
   --textwhite:#EA4C4C;
 
+}
+
 * {
   font-family: "Roboto", sans-serif;
 }
 
 html body {
-  background-color: #e44e4e;
+  background-color: var(--bgColor);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,7 +22,7 @@ header {
   align-items: baseline;
   justify-content: center;
   text-align: center;
-  color: #fff;
+  color: #fffae2;
   font-weight: 500;
 }
 header h2 {
@@ -28,7 +30,7 @@ header h2 {
 }
 header p {
   font-size: 2rem;
-  color: #0a4b5b;
+  color: var(--tealColor);
 }
 label {
   color: #fff;
@@ -44,15 +46,16 @@ label {
 .controls {
   text-align: center;
 }
- .controls h4 {
-  color:#0A4B5B;
+.controls h4 {
+  color: var(--tealColor);
 }
 select {
   outline: none;
   padding: 0.8rem 1.5rem;
-  border: 0.5px solid #fff;
+  border: 0.5px solid var(--textwhite);
   width: 10rem;
-  background-color: #0b5f73;
+  background-color: var(--tealColor);
+  color: #fff;
 }
 option {
   color: #fff;

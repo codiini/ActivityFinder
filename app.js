@@ -44,11 +44,8 @@ function getPersonalActivity() {
       subResponseBody.innerHTML = `${data.activity}`;
       subResponse.appendChild(subResponseBody);
       console.log(data);
-    });
       
-  // Add main card Div to header Div
-  headerDiv.appendChild(response);
-
+    });
   
 
 }

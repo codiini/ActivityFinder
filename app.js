@@ -30,6 +30,16 @@ function getPersonalActivity () {
         .classList.add("card", "w-75", "p-5", "mx-auto");
       console.log(data);
     });
+  
+  // Add main card Div to header Div
+  headerDiv.appendChild(response);
+
+        // Create sub card div
+        let subResponse = document.createElement("div").classList.add("card-body");
+        console.log(data);
+    });
+  
+
 }
 
 // Group Activity Function

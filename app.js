@@ -45,6 +45,12 @@ function getPersonalActivity() {
       subResponse.appendChild(subResponseBody);
       console.log(data);
     });
+  
+  // Add main card Div to header Div
+  headerDiv.appendChild(response);
+
+  
+
 }
 
 // Group Activity Function

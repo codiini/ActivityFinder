@@ -9,6 +9,8 @@ const groupActivity = document
 
 // FUNCTIONS
 
+// Function to handle the creation of card containing activity for both personal and group activities
+
 showActivity = (data) => {
   let imgRemove = document.getElementById("joy-svg");
   // imgRemove.remove();
@@ -29,10 +31,12 @@ showActivity = (data) => {
   // Append sub card div to main card div
   response.appendChild(subResponse);
 
+  // Create sub card div Title text and append to sub card
   let subResponseTitle = document.createElement("p");
   subResponseTitle.innerHTML = "You can:";
   subResponse.appendChild(subResponseTitle);
 
+  // Create sub card div body text and append to sub card
   let subResponseBody = document.createElement("p");
   subResponseBody.innerHTML = `${data.activity}`;
   subResponse.appendChild(subResponseBody);

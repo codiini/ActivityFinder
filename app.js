@@ -12,6 +12,11 @@ const groupActivity = document
 // Function to handle the creation of card containing activity for both personal and group activities
 
 showActivity = (data) => {
+  const dataCard = document.querySelector(".active");
+
+  if (dataCard) {
+    dataCard.remove();
+  }
   let imgRemove = document.getElementById("joy-svg");
   // imgRemove.remove();
 
@@ -19,7 +24,7 @@ showActivity = (data) => {
 
   // created the main card div
   let response = document.createElement("div");
-  response.classList.add("card", "w-75", "p-5", "mx-auto");
+  response.classList.add("card", "w-75", "p-5", "mx-auto", "active");
 
   // Append main card Div to header Div
   headerDiv.appendChild(response);
